@@ -1,0 +1,18 @@
+# for emacs:
+*~
+\#*
+.\#*
+
+# for vi:
+*.bak
+*.swp
+
+# for rails:
+.bundle
+db/*.sql
+log
+tmp
+
+# metrics
+coverage
+

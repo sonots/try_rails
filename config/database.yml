@@ -1,0 +1,28 @@
+development:
+  adapter: mysql2
+  database: rails_template_development
+  pool: 5
+  timeout: 5000
+  username: root
+  password: 
+  host: localhost
+
+test:
+  adapter: mysql2
+  database: rails_template_development
+  pool: 5
+  timeout: 5000
+  username: root
+  password: 
+  host: localhost
+  port: 3306
+
+production:
+  adapter: mysql2
+  database: rails_template_development
+  pool: 5
+  timeout: 5000
+  username: root
+  password: 
+  host: localhost
+  port: 3306
